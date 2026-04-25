@@ -216,7 +216,7 @@ app.delete('/api/admin/clear-all', async (req, res) => {
 // ============ START SERVER ============
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📦 API available at http://localhost:${PORT}/api`);
+  console.log(`🚀 Server running on https://wavetechnologies.onrender.com:${PORT}`);
+  console.log(`📦 API available at https://wavetechnologies.onrender.com:${PORT}/api`);
   console.log(`💡 Admin login: username='vicky', password='Victor@2026'`);
 });
